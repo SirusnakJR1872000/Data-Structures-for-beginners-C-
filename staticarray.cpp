@@ -27,7 +27,9 @@ void insertMiddle(int arr[], int i, int n, int length){
 // next we will delete the element from the last position of the array
 void removeEnd(int arr[], int length){
     // we will just overwrite the last element with 0 as it is the defualt value
-    arr[length - 1] = 0;
+    if (length > 0){
+        arr[length - 1] = 0;
+    }
 }
 
 // now lets try removing the element from the middle or any specified position
