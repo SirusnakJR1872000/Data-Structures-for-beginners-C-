@@ -56,7 +56,7 @@ public:
 
     void print() {
         ListNode* curr = left;
-        while (curr) {
+        while (curr != nullptr) {
             cout << curr -> val_ << " -> ";
             curr = curr -> next;
         }
