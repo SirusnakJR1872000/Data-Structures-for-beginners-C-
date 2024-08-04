@@ -16,8 +16,8 @@ public:
 
 class Queue {
 public: 
-    ListNode* left;
-    ListNode* right;
+    ListNode* left = nullptr;
+    ListNode* right = nullptr;
     
     Queue() {}
     // now lets try adding values to the queue
