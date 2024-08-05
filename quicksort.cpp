@@ -27,7 +27,7 @@ vector<int> quickSort(vector<int>& arr, int s, int e) {
             int temp = arr[left];
             arr[left] = arr[i];
             arr[i] = temp;
-            left ++ 
+            left ++;
         }
     }
 
