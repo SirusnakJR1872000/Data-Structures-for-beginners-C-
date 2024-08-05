@@ -20,7 +20,7 @@ vector<int> quickSort(vector<int>& arr, int s, int e) {
     int left = s;
 
     // now we will traverse through the array
-    for (int i = 0; i < e; i++) {
+    for (int i = s; i < e; i++) {
         // now we will compare the elements with the pivot
         if (arr[i] < pivot) {
             // if the condition is satisfied we swap with the left value since it is at first position
