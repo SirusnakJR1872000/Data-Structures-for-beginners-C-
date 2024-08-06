@@ -3,6 +3,9 @@
 // if the target value is smaller than the mid value the right array is discarded
 // else the left array is discarded
 
+# include <vector>
+using std :: vector;
+
 int binarySearch(vector<int>& arr, int target) {
     int left = 0, right = arr.size();
 
